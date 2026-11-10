@@ -1,0 +1,50 @@
+.container {
+  margin: 20px;
+
+  .filters {
+    display: flex;
+
+    mat-form-field {
+      width: 250px;
+      margin-right: 20px;
+    }
+
+    .buttons {
+      flex: auto;
+      align-self: center;
+
+      button {
+        margin-left: 15px;
+      }
+    }
+  }
+
+  mat-table {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    .mat-column-id {
+      flex: 0 0 12%;
+      justify-content: center;
+    }
+
+    .mat-column-action {
+      flex: 0 0 10%;
+      justify-content: center;
+    }
+  }
+
+  .buttons {
+    text-align: right;
+  }
+
+  button {
+    width: 125px;
+  }
+
+  mat-cell button,
+  .mat-column-action button {
+    width: auto;
+    margin-left: 0;
+  }
+}

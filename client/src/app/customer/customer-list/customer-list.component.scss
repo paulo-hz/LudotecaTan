@@ -1,0 +1,22 @@
+.container {
+  margin: 20px;
+
+  mat-table {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    .mat-column-id {
+      flex: 0 0 20%;
+      justify-content: center;
+    }
+
+    .mat-column-action {
+      flex: 0 0 10%;
+      justify-content: center;
+    }
+  }
+
+  .buttons {
+    text-align: right;
+  }
+}
